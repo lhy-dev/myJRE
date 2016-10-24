@@ -1,0 +1,153 @@
+#Tue Jan 19 21:20:00 CST 2016
+#Please DO NOT Modify this file
+#This jre was built using the following options
+ejdk-home = /root/ejk1.8
+dest = /root/ejk1.8/bin/compact3-client
+target = linux_armv6_vfp_hflt
+profile = compact3
+debug = false
+vm = client
+keep-debug-info = false
+no-compression = false
+dry-run = false
+verbose = false
+extension = []
+# Some other info
+command = jrecreate --profile compact3 --dest compact3-client --vm client 
+#List of files copied from ejdk to this directory
+/root/ejk1.8/linux_armv6_vfp_hflt/compact3/COPYRIGHT
+        => /root/ejk1.8/bin/compact3-client/COPYRIGHT
+/root/ejk1.8/linux_armv6_vfp_hflt/compact3/bin/rmid
+        => /root/ejk1.8/bin/compact3-client/bin/rmid
+/root/ejk1.8/linux_armv6_vfp_hflt/compact3/bin/java
+        => /root/ejk1.8/bin/compact3-client/bin/java
+/root/ejk1.8/linux_armv6_vfp_hflt/compact3/bin/rmiregistry
+        => /root/ejk1.8/bin/compact3-client/bin/rmiregistry
+/root/ejk1.8/linux_armv6_vfp_hflt/compact3/bin/keytool
+        => /root/ejk1.8/bin/compact3-client/bin/keytool
+/root/ejk1.8/linux_armv6_vfp_hflt/compact3/lib/meta-index
+        => /root/ejk1.8/bin/compact3-client/lib/meta-index
+/root/ejk1.8/linux_armv6_vfp_hflt/compact3/lib/jvm.hprof.txt
+        => /root/ejk1.8/bin/compact3-client/lib/jvm.hprof.txt
+/root/ejk1.8/linux_armv6_vfp_hflt/compact3/lib/ext/meta-index
+        => /root/ejk1.8/bin/compact3-client/lib/ext/meta-index
+/root/ejk1.8/linux_armv6_vfp_hflt/compact3/lib/ext/sunjce_provider.jar
+        => /root/ejk1.8/bin/compact3-client/lib/ext/sunjce_provider.jar
+/root/ejk1.8/linux_armv6_vfp_hflt/compact3/lib/ext/sunpkcs11.jar
+        => /root/ejk1.8/bin/compact3-client/lib/ext/sunpkcs11.jar
+/root/ejk1.8/linux_armv6_vfp_hflt/compact3/lib/ext/localedata.jar
+        => /root/ejk1.8/bin/compact3-client/lib/ext/localedata.jar
+/root/ejk1.8/linux_armv6_vfp_hflt/compact3/lib/ext/sunec.jar
+        => /root/ejk1.8/bin/compact3-client/lib/ext/sunec.jar
+/root/ejk1.8/linux_armv6_vfp_hflt/compact3/lib/jce.jar
+        => /root/ejk1.8/bin/compact3-client/lib/jce.jar
+/root/ejk1.8/linux_armv6_vfp_hflt/compact3/lib/currency.data
+        => /root/ejk1.8/bin/compact3-client/lib/currency.data
+/root/ejk1.8/linux_armv6_vfp_hflt/compact3/lib/tzdb.dat
+        => /root/ejk1.8/bin/compact3-client/lib/tzdb.dat
+/root/ejk1.8/linux_armv6_vfp_hflt/compact3/lib/management-agent.jar
+        => /root/ejk1.8/bin/compact3-client/lib/management-agent.jar
+/root/ejk1.8/linux_armv6_vfp_hflt/compact3/lib/net.properties
+        => /root/ejk1.8/bin/compact3-client/lib/net.properties
+/root/ejk1.8/linux_armv6_vfp_hflt/compact3/lib/classlist
+        => /root/ejk1.8/bin/compact3-client/lib/classlist
+/root/ejk1.8/linux_armv6_vfp_hflt/compact3/lib/rt.jar
+        => /root/ejk1.8/bin/compact3-client/lib/rt.jar
+/root/ejk1.8/linux_armv6_vfp_hflt/compact3/lib/logging.properties
+        => /root/ejk1.8/bin/compact3-client/lib/logging.properties
+/root/ejk1.8/linux_armv6_vfp_hflt/compact3/lib/resources.jar
+        => /root/ejk1.8/bin/compact3-client/lib/resources.jar
+/root/ejk1.8/linux_armv6_vfp_hflt/compact3/lib/management/management.properties
+        => /root/ejk1.8/bin/compact3-client/lib/management/management.properties
+/root/ejk1.8/linux_armv6_vfp_hflt/compact3/lib/management/jmxremote.password.template
+        => /root/ejk1.8/bin/compact3-client/lib/management/jmxremote.password.template
+/root/ejk1.8/linux_armv6_vfp_hflt/compact3/lib/management/snmp.acl.template
+        => /root/ejk1.8/bin/compact3-client/lib/management/snmp.acl.template
+/root/ejk1.8/linux_armv6_vfp_hflt/compact3/lib/management/jmxremote.access
+        => /root/ejk1.8/bin/compact3-client/lib/management/jmxremote.access
+/root/ejk1.8/linux_armv6_vfp_hflt/compact3/lib/calendars.properties
+        => /root/ejk1.8/bin/compact3-client/lib/calendars.properties
+/root/ejk1.8/linux_armv6_vfp_hflt/compact3/lib/security/java.security
+        => /root/ejk1.8/bin/compact3-client/lib/security/java.security
+/root/ejk1.8/linux_armv6_vfp_hflt/compact3/lib/security/blacklisted.certs
+        => /root/ejk1.8/bin/compact3-client/lib/security/blacklisted.certs
+/root/ejk1.8/linux_armv6_vfp_hflt/compact3/lib/security/blacklist
+        => /root/ejk1.8/bin/compact3-client/lib/security/blacklist
+/root/ejk1.8/linux_armv6_vfp_hflt/compact3/lib/security/US_export_policy.jar
+        => /root/ejk1.8/bin/compact3-client/lib/security/US_export_policy.jar
+/root/ejk1.8/linux_armv6_vfp_hflt/compact3/lib/security/java.policy
+        => /root/ejk1.8/bin/compact3-client/lib/security/java.policy
+/root/ejk1.8/linux_armv6_vfp_hflt/compact3/lib/security/local_policy.jar
+        => /root/ejk1.8/bin/compact3-client/lib/security/local_policy.jar
+/root/ejk1.8/linux_armv6_vfp_hflt/compact3/lib/security/cacerts
+        => /root/ejk1.8/bin/compact3-client/lib/security/cacerts
+/root/ejk1.8/linux_armv6_vfp_hflt/compact3/lib/security/trusted.libraries
+        => /root/ejk1.8/bin/compact3-client/lib/security/trusted.libraries
+/root/ejk1.8/linux_armv6_vfp_hflt/compact3/lib/hijrah-config-umalqura.properties
+        => /root/ejk1.8/bin/compact3-client/lib/hijrah-config-umalqura.properties
+/root/ejk1.8/linux_armv6_vfp_hflt/compact3/lib/content-types.properties
+        => /root/ejk1.8/bin/compact3-client/lib/content-types.properties
+/root/ejk1.8/linux_armv6_vfp_hflt/compact3/lib/arm/libinstrument.so
+        => /root/ejk1.8/bin/compact3-client/lib/arm/libinstrument.so
+/root/ejk1.8/linux_armv6_vfp_hflt/compact3/lib/arm/libnio.so
+        => /root/ejk1.8/bin/compact3-client/lib/arm/libnio.so
+/root/ejk1.8/linux_armv6_vfp_hflt/compact3/lib/arm/jli/libjli.so
+        => /root/ejk1.8/bin/compact3-client/lib/arm/jli/libjli.so
+/root/ejk1.8/linux_armv6_vfp_hflt/compact3/lib/arm/libnpt.so
+        => /root/ejk1.8/bin/compact3-client/lib/arm/libnpt.so
+/root/ejk1.8/linux_armv6_vfp_hflt/compact3/lib/arm/jvm.cfg
+        => /root/ejk1.8/bin/compact3-client/lib/arm/jvm.cfg
+/root/ejk1.8/linux_armv6_vfp_hflt/compact3/lib/arm/libjsig.so
+        => /root/ejk1.8/bin/compact3-client/lib/arm/libjsig.so
+/root/ejk1.8/linux_armv6_vfp_hflt/compact3/lib/arm/libnet.so
+        => /root/ejk1.8/bin/compact3-client/lib/arm/libnet.so
+/root/ejk1.8/linux_armv6_vfp_hflt/compact3/lib/arm/libzip.so
+        => /root/ejk1.8/bin/compact3-client/lib/arm/libzip.so
+/root/ejk1.8/linux_armv6_vfp_hflt/compact3/lib/arm/libmanagement.so
+        => /root/ejk1.8/bin/compact3-client/lib/arm/libmanagement.so
+/root/ejk1.8/linux_armv6_vfp_hflt/compact3/lib/arm/libjaas_unix.so
+        => /root/ejk1.8/bin/compact3-client/lib/arm/libjaas_unix.so
+/root/ejk1.8/linux_armv6_vfp_hflt/compact3/lib/arm/libjsdt.so
+        => /root/ejk1.8/bin/compact3-client/lib/arm/libjsdt.so
+/root/ejk1.8/linux_armv6_vfp_hflt/compact3/lib/arm/libj2gss.so
+        => /root/ejk1.8/bin/compact3-client/lib/arm/libj2gss.so
+/root/ejk1.8/linux_armv6_vfp_hflt/compact3/lib/arm/minimal/Xusage.txt
+        => /root/ejk1.8/bin/compact3-client/lib/arm/minimal/Xusage.txt
+/root/ejk1.8/linux_armv6_vfp_hflt/compact3/lib/arm/minimal/libjsig.so
+        => /root/ejk1.8/bin/compact3-client/lib/arm/minimal/libjsig.so
+/root/ejk1.8/linux_armv6_vfp_hflt/compact3/lib/arm/minimal/libjvm.so
+        => /root/ejk1.8/bin/compact3-client/lib/arm/minimal/libjvm.so
+/root/ejk1.8/linux_armv6_vfp_hflt/compact3/lib/arm/libjava.so
+        => /root/ejk1.8/bin/compact3-client/lib/arm/libjava.so
+/root/ejk1.8/linux_armv6_vfp_hflt/compact3/lib/arm/libj2pcsc.so
+        => /root/ejk1.8/bin/compact3-client/lib/arm/libj2pcsc.so
+/root/ejk1.8/linux_armv6_vfp_hflt/compact3/lib/arm/libsunec.so
+        => /root/ejk1.8/bin/compact3-client/lib/arm/libsunec.so
+/root/ejk1.8/linux_armv6_vfp_hflt/compact3/lib/arm/libverify.so
+        => /root/ejk1.8/bin/compact3-client/lib/arm/libverify.so
+/root/ejk1.8/linux_armv6_vfp_hflt/compact3/lib/arm/libjava_crw_demo.so
+        => /root/ejk1.8/bin/compact3-client/lib/arm/libjava_crw_demo.so
+/root/ejk1.8/linux_armv6_vfp_hflt/compact3/lib/arm/libj2pkcs11.so
+        => /root/ejk1.8/bin/compact3-client/lib/arm/libj2pkcs11.so
+/root/ejk1.8/linux_armv6_vfp_hflt/compact3/lib/arm/libsctp.so
+        => /root/ejk1.8/bin/compact3-client/lib/arm/libsctp.so
+/root/ejk1.8/linux_armv6_vfp_hflt/compact3/lib/arm/client/Xusage.txt
+        => /root/ejk1.8/bin/compact3-client/lib/arm/client/Xusage.txt
+/root/ejk1.8/linux_armv6_vfp_hflt/compact3/lib/arm/client/libjsig.so
+        => /root/ejk1.8/bin/compact3-client/lib/arm/client/libjsig.so
+/root/ejk1.8/linux_armv6_vfp_hflt/compact3/lib/arm/client/libjvm.so
+        => /root/ejk1.8/bin/compact3-client/lib/arm/client/libjvm.so
+/root/ejk1.8/linux_armv6_vfp_hflt/compact3/lib/arm/server/Xusage.txt
+        => /root/ejk1.8/bin/compact3-client/lib/arm/server/Xusage.txt
+/root/ejk1.8/linux_armv6_vfp_hflt/compact3/lib/arm/server/libjsig.so
+        => /root/ejk1.8/bin/compact3-client/lib/arm/server/libjsig.so
+/root/ejk1.8/linux_armv6_vfp_hflt/compact3/lib/arm/server/libjvm.so
+        => /root/ejk1.8/bin/compact3-client/lib/arm/server/libjvm.so
+/root/ejk1.8/linux_armv6_vfp_hflt/compact3/lib/arm/libhprof.so
+        => /root/ejk1.8/bin/compact3-client/lib/arm/libhprof.so
+/root/ejk1.8/linux_armv6_vfp_hflt/compact3/lib/jsse.jar
+        => /root/ejk1.8/bin/compact3-client/lib/jsse.jar
+/root/ejk1.8/linux_armv6_vfp_hflt/compact3/THIRDPARTYLICENSEREADME.txt
+        => /root/ejk1.8/bin/compact3-client/THIRDPARTYLICENSEREADME.txt
+/root/ejk1.8/linux_armv6_vfp_hflt/compact3/release
+        => /root/ejk1.8/bin/compact3-client/release
